@@ -24,42 +24,46 @@ Cricket action recognition is challenging due to:
 ## 🧩 Dataset Classes (with Examples)
 
 ### 🏏 Batting Actions
+
 | Cut | Drive | Pull | Sweep |
 |-----|------|------|-------|
-| ![](JU-Cricket_pictures/Batting/6_cut_main.jpg) | ![](JU-Cricket_pictures/Batting/Batting_Drive_ju_cr_Drive_28.jpg) | ![](JU-Cricket_pictures/Batting/Batting_PullShot_ju_cr_PullShot_39.png) | ![](JU-Cricket_pictures/Batting/Batting_Sweep_ju_cr_Sweep_38.jpeg) |
+| <img src="JU-Cricket_pictures/Batting/6_cut_main.jpg" width="160"/> | <img src="JU-Cricket_pictures/Batting/Batting_Drive_ju_cr_Drive_28.jpg" width="160"/> | <img src="JU-Cricket_pictures/Batting/Batting_PullShot_ju_cr_PullShot_39.png" width="160"/> | <img src="JU-Cricket_pictures/Batting/Batting_Sweep_ju_cr_Sweep_38.jpeg" width="160"/> |
 
 | Scoop | Straight Drive | Leg Shot |
 |------|----------------|-----------|
-| ![](JU-Cricket_pictures/Batting/Batting_Scoop_ju_cr_Scoop_12.jpeg) | ![](JU-Cricket_pictures/Batting/Batting_Straight_ju_cr_Straight_39.jpg) | ![](JU-Cricket_pictures/Batting/Batting_Leg_Shot_ju_cr_Leg_Shot_78.png) |
+| <img src="JU-Cricket_pictures/Batting/Batting_Scoop_ju_cr_Scoop_12.jpeg" width="160"/> | <img src="JU-Cricket_pictures/Batting/Batting_Straight_ju_cr_Straight_39.jpg" width="160"/> | <img src="JU-Cricket_pictures/Batting/Batting_Leg_Shot_ju_cr_Leg_Shot_78.png" width="160"/> |
 
 ---
 
 ### 🎯 Bowling Actions
+
 | Fast Bowling | Spin Bowling |
 |-------------|-------------|
-| ![](JU-Cricket_pictures/Bowling/Bowling_fast_bowl_ju_cr_fast_bowl_06.jpeg) | ![](JU-Cricket_pictures/Bowling/Bowling_spin_bowl_ju_cr_spin_bowl_23.jpeg) |
+| <img src="JU-Cricket_pictures/Bowling/Bowling_fast_bowl_ju_cr_fast_bowl_06.jpeg" width="200"/> | <img src="JU-Cricket_pictures/Bowling/Bowling_spin_bowl_ju_cr_spin_bowl_23.jpeg" width="200"/> |
 
 ---
 
 ### 🧤 Fielding Actions
+
 | Catch | Run Out | Stumping |
 |------|--------|----------|
-| ![](JU-Cricket_pictures/Fielding/Fielding_catching_a_ball_ju_cr_catching_a_ball_21.jpeg) | ![](JU-Cricket_pictures/Fielding/Fielding_run_out_ju_cr_run_out_01.jpeg) | ![](JU-Cricket_pictures/Fielding/Fielding_stumping_ju_cr_stumping_07.jpeg) |
+| <img src="JU-Cricket_pictures/Fielding/Fielding_catching_a_ball_ju_cr_catching_a_ball_21.jpeg" width="160"/> | <img src="JU-Cricket_pictures/Fielding/Fielding_run_out_ju_cr_run_out_01.jpeg" width="160"/> | <img src="JU-Cricket_pictures/Fielding/Fielding_stumping_ju_cr_stumping_07.jpeg" width="160"/> |
 
 | Diving Stop | Boundary Save |
 |------------|--------------|
-| ![](JU-Cricket_pictures/Fielding/Fielding_diving_stop_ju_cr_diving_stop_08.jpg) | ![](JU-Cricket_pictures/Fielding/Fielding_boundary_save_ju_cr_boundary_save_12.jpeg) |
+| <img src="JU-Cricket_pictures/Fielding/Fielding_diving_stop_ju_cr_diving_stop_08.jpg" width="200"/> | <img src="JU-Cricket_pictures/Fielding/Fielding_boundary_save_ju_cr_boundary_save_12.jpeg" width="200"/> |
 
 ---
 
 ### 👨‍⚖️ Umpire Actions
+
 | Six | Four | Out |
 |----|-----|-----|
-| ![](JU-Cricket_pictures/Umpire/Umpire_Six_ju_cr_Six_24.jpeg) | ![](JU-Cricket_pictures/Umpire/Umpire_Four_ju_cr_Four_06.jpeg) | ![](JU-Cricket_pictures/Umpire/Umpire_Out_ju_cr_Out_03.jpg) |
+| <img src="JU-Cricket_pictures/Umpire/Umpire_Six_ju_cr_Six_24.jpeg" width="160"/> | <img src="JU-Cricket_pictures/Umpire/Umpire_Four_ju_cr_Four_06.jpeg" width="160"/> | <img src="JU-Cricket_pictures/Umpire/Umpire_Out_ju_cr_Out_03.jpg" width="160"/> |
 
 | Wide | No Ball | Leg Bye |
 |------|--------|--------|
-| ![](JU-Cricket_pictures/Umpire/Umpire_Wide_ju_cr_Wide_01.jpeg) | ![](JU-Cricket_pictures/Umpire/Umpire_No_ball_ju_cr_No_ball_13.jpg) | ![](JU-Cricket_pictures/Umpire/Umpire_Leg_Bye_ju_cr_Leg_Bye_13.jpeg) |
+| <img src="JU-Cricket_pictures/Umpire/Umpire_Wide_ju_cr_Wide_01.jpeg" width="160"/> | <img src="JU-Cricket_pictures/Umpire/Umpire_No_ball_ju_cr_No_ball_13.jpg" width="160"/> | <img src="JU-Cricket_pictures/Umpire/Umpire_Leg_Bye_ju_cr_Leg_Bye_13.jpeg" width="160"/> |
 
 ---
 
