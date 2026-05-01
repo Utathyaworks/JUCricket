@@ -142,5 +142,8 @@ https://github.com/aritra-mondal-it/JUCricket
 
 ---
 
+## Dataset Availabilty
+Dataset will be publicily available once the paper is accepted, but till then you can see some of the sample images as given in the table.
+
 ## 📜 License
 Academic and research use only.
