@@ -26,40 +26,40 @@ Cricket action recognition is challenging due to:
 ### 🏏 Batting Actions
 | Cut | Drive | Pull | Sweep |
 |-----|------|------|-------|
-| ![](JU-Cricket_pictures/Batting/6_cut_main.jpg) | ![](assets/images/batting/drive.jpg) | ![](assets/images/batting/pull.jpg) | ![](assets/images/batting/sweep.jpg) |
+| ![](JU-Cricket_pictures/Batting/6_cut_main.jpg) | ![](JU-Cricket_pictures/Batting/Batting_Drive_ju_cr_Drive_28.jpg) | ![](JU-Cricket_pictures/Batting/Batting_PullShot_ju_cr_PullShot_39.png) | ![](JU-Cricket_pictures/Batting/Batting_Sweep_ju_cr_Sweep_38.jpeg) |
 
-| Scoop | Straight Drive | Leg Glance |
+| Scoop | Straight Drive | Leg Shot |
 |------|----------------|-----------|
-| ![](assets/images/batting/scoop.jpg) | ![](assets/images/batting/straight.jpg) | ![](assets/images/batting/leg.jpg) |
+| ![](JU-Cricket_pictures/Batting/Batting_Scoop_ju_cr_Scoop_12.jpeg) | ![](JU-Cricket_pictures/Batting/Batting_Straight_ju_cr_Straight_39 (1).jpg) | ![](JU-Cricket_pictures/Batting/Batting_Leg Shot_ju_cr_Leg Shot_78.png) |
 
 ---
 
 ### 🎯 Bowling Actions
 | Fast Bowling | Spin Bowling |
 |-------------|-------------|
-| ![](assets/images/bowling/fast.jpg) | ![](assets/images/bowling/spin.jpg) |
+| ![](JU-Cricket_pictures/Bowling/Bowling_fast_bowl_ju_cr_fast_bowl_06.jpeg) | ![](JU-Cricket_pictures/Bowling/Bowling_spin_bowl_ju_cr_spin_bowl_23.jpeg) |
 
 ---
 
 ### 🧤 Fielding Actions
 | Catch | Run Out | Stumping |
 |------|--------|----------|
-| ![](assets/images/fielding/catch.jpg) | ![](assets/images/fielding/runout.jpg) | ![](assets/images/fielding/stumping.jpg) |
+| ![](JU-Cricket_pictures/Fielding/Fielding_catching_a_ball_ju_cr_catching_a_ball_21.jpeg) | ![](JU-Cricket_pictures/Fielding/Fielding_run_out_ju_cr_run_out_01.jpeg) | ![](JU-Cricket_pictures/Fielding/Fielding_stumping_ju_cr_stumping_07.jpeg) |
 
 | Diving Stop | Boundary Save |
 |------------|--------------|
-| ![](assets/images/fielding/dive.jpg) | ![](assets/images/fielding/boundary.jpg) |
+| ![](JU-Cricket_pictures/Fielding/Fielding_diving_stop_ju_cr_diving_stop_08.jpg) | ![](JU-Cricket_pictures/Fielding/Fielding_boundary_save_ju_cr_boundary_save_12.jpegg) |
 
 ---
 
 ### 👨‍⚖️ Umpire Actions
 | Six | Four | Out |
 |----|-----|-----|
-| ![](assets/images/umpire/six.jpg) | ![](assets/images/umpire/four.jpg) | ![](assets/images/umpire/out.jpg) |
+| ![](JU-Cricket_pictures/Umpire/Umpire_Six_ju_cr_Six_24.jpeg) | ![](JU-Cricket_pictures/Umpire/Umpire_Four_ju_cr_Four_06.jpeg) | ![](JU-Cricket_pictures/Umpire/Umpire_Out_ju_cr_Out_03.jpg) |
 
 | Wide | No Ball | Leg Bye |
 |------|--------|--------|
-| ![](assets/images/umpire/wide.jpg) | ![](assets/images/umpire/noball.jpg) | ![](assets/images/umpire/legbye.jpg) |
+| ![](JU-Cricket_pictures/Umpire/Umpire_Wide_ju_cr_Wide_01.jpeg) | ![](JU-Cricket_pictures/Umpire/Umpire_No_ball_ju_cr_No_ball_13.jpg) | ![](JU-Cricket_pictures/Umpire/Umpire_Leg_Bye_ju_cr_Leg_Bye_13.jpeg) |
 
 ---
 
