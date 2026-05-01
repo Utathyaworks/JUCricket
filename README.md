@@ -1,4 +1,4 @@
-# 🏏 JU-Cricket: A Benchmark Dataset for Robust Cricket Action Classification
+# JU-Cricket: A Benchmark Dataset for Fine-grained Cricket Action Classification with Challenging Visual Conditions
 
 ## 📌 Overview
 JU-Cricket is a large-scale benchmark dataset and experimental framework designed for **fine-grained cricket action classification under realistic visual conditions**. Unlike existing datasets, JU-Cricket focuses on **real-world deployment challenges**, including visual distortions commonly present in broadcast footage such as motion blur, noise, and low resolution.
