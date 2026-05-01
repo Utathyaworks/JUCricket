@@ -1,38 +1,76 @@
-# 🏏 JU-Cricket: Cricket Action Classification using Deep Learning
+# 🏏 JU-Cricket: A Benchmark Dataset for Robust Cricket Action Classification
 
 ## 📌 Overview
-**JU-Cricket** is a deep learning-based project focused on automatic classification of cricket actions from images. The system leverages state-of-the-art Convolutional Neural Networks (CNNs) to identify and classify different cricket activities such as **Batting, Bowling, Fielding, and Umpire actions**.
+JU-Cricket is a large-scale benchmark dataset and experimental framework designed for **fine-grained cricket action classification under realistic visual conditions**. Unlike existing datasets, JU-Cricket focuses on **real-world deployment challenges**, including visual distortions commonly present in broadcast footage such as motion blur, noise, and low resolution.
 
-This project is developed as part of academic research to contribute toward **sports analytics, intelligent video understanding, and automated decision systems**.
-
----
-
-## 🎯 Objectives
-- Build a robust **multi-class classification model** for cricket actions  
-- Compare multiple deep learning architectures  
-- Analyze model behavior using **Grad-CAM visualization**  
-- Evaluate performance under **real-world distortions**
+This project bridges the gap between **academic performance and real-world applicability** in sports analytics and computer vision.
 
 ---
 
-## 📂 Dataset Structure
+## ❗ Problem Statement
+Cricket action recognition is inherently challenging due to:
 
-### 🏷️ Classes
+- High **visual similarity between actions** (e.g., pull vs cut shot)  
+- **Single-frame critical decision points** (bat-ball contact, umpire signals)  
+- Severe **visual distortions in broadcast footage**:
+  - Motion blur  
+  - Lens flare  
+  - Low resolution  
+  - Compression artifacts  
+
+Existing datasets fail because they are:
+- Small and limited in scope  
+- Focused on single roles (only batting or bowling)  
+- Captured under clean, unrealistic conditions  
+
+---
+
+## 🚀 Key Contributions
+
+### 🥇 JU-Cricket Dataset
+- **15,728 images** derived from **1,966 original images**
+- Each image includes **7 distortion variants + original**
+- Designed to simulate **real broadcast conditions**
+
+### 🧩 Multi-Role Coverage
 - Batting  
 - Bowling  
 - Fielding  
-- Umpire Actions  
+- Umpiring  
 
-### 📌 Dataset Features
-- Real-world cricket images  
-- Multiple distortion types (blur, noise, compression)  
-- Variations in lighting, pose, and background  
+### 🧠 Fine-Grained Understanding
+- **20+ sub-actions**, including:
+  - Batting: Cut, Drive, Sweep, Scoop, Pull, etc.  
+  - Bowling: Fast, Spin  
+  - Fielding: Catch, Run-out, Stumping, etc.  
+  - Umpiring: Six, Out, No-ball, Wide, etc.  
+
+### 🧱 Hierarchical Problem Formulation
+- **Task A (Coarse Classification)**  
+  → Identify player role (4 classes)
+
+- **Task B (Fine-Grained Classification)**  
+  → Identify specific sub-action (20+ classes)
 
 ---
 
-## 🧠 Models Used
-The following pre-trained CNN architectures were fine-tuned:
+## ⚠️ Why This Problem is Hard
+- Key discriminative features are:
+  - **Bat angle**
+  - **Wrist movement**
+  - **Body posture**
+- These features are highly sensitive to:
+  - Blur  
+  - Noise  
+  - Resolution loss  
 
+👉 Even small distortions can break classification performance.
+
+---
+
+## 🧠 Models Benchmarked
+
+### 🔹 CNN-Based Models
 - ResNet50  
 - DenseNet121  
 - EfficientNetB0  
@@ -40,50 +78,120 @@ The following pre-trained CNN architectures were fine-tuned:
 - InceptionNet  
 - XceptionNet  
 
-### 🔧 Model Configuration
-- Transfer Learning with ImageNet weights  
-- Custom classifier head:
-  - BatchNormalization  
-  - Dense Layer (ReLU)  
-  - Dropout  
-  - Output Layer (Softmax)  
+### 🔹 Transformer-Based Models
+- Vision Transformer (ViT)
+
+### 🔹 Vision-Language Models
+- CLIP (ViT-based)
+  - Zero-shot  
+  - Fine-tuned  
+  - Text-supervised  
 
 ---
 
-## ⚙️ Methodology
-
-### 1. Data Preprocessing
-- Image resizing and normalization  
-- Data augmentation (flip, rotation, zoom)
-
-### 2. Training
+## 🧪 Experimental Setup
+- Training on **NVIDIA Tesla P100 GPU**
+- Batch size: 32  
 - Optimizer: Adam  
-- Loss Function: Categorical Crossentropy  
-- Fine-tuning deeper layers  
+- Learning rate: 1e-4  
+- Loss: Categorical Crossentropy  
 
-### 3. Evaluation Metrics
-- Accuracy  
-- Precision  
-- Recall  
-- F1-Score  
-- Confusion Matrix  
-
-### 4. Explainability
-- Grad-CAM used to visualize important regions in images  
+### Training Strategies
+- From-scratch training  
+- ImageNet pretrained fine-tuning  
 
 ---
 
-## 📊 Results
-- High classification accuracy achieved across all models  
-- DenseNet and ResNet performed best overall  
-- Models remained robust under distorted conditions (Task B)  
-- Grad-CAM confirms focus on relevant regions (bat, ball, player posture)
+## 📊 Key Findings
+
+### 🔥 1. Pretraining Matters More Than Architecture
+- Significant performance gain:
+  - **+0.22 (Task A)**
+  - **+0.18 (Task B)**  
+
+👉 Transfer learning is critical for real-world robustness.
 
 ---
 
-## 🚀 How to Run
+### 🔥 2. Fine-Grained Classification is Extremely Difficult
+- Actions differ by subtle motion cues
+- Distortions destroy key features
 
-### 1. Clone Repository
-```bash
-git clone https://github.com/your-username/ju-cricket.git
-cd ju-cricket
+Examples:
+- Cut vs Pull → both horizontal bat  
+- Sweep vs Scoop → similar posture  
+
+---
+
+### 🔥 3. CLIP Limitations
+- Performs reasonably on coarse classification  
+- Fails on fine-grained actions  
+
+👉 Insight:
+> Language supervision does not transfer well to biomechanical action understanding without domain adaptation.
+
+---
+
+## 📉 Dataset Realism Advantage
+Unlike traditional datasets:
+- JU-Cricket includes **distorted images in training AND testing**
+- Ensures evaluation reflects **real deployment conditions**
+
+👉 Measures **robustness, not just accuracy**
+
+---
+
+## 📂 Dataset Highlights
+
+- Total Images: **15,728**
+- Train / Val / Test:
+  - 9,928 / 2,576 / 3,224  
+- 8 variants per image:
+  - Original + 7 distortions  
+
+### Distortion Types
+- Motion Blur  
+- Gaussian Noise  
+- Low Resolution  
+- Lens Flare  
+- Chromatic Aberration  
+- Dirty Lens  
+
+---
+
+## 🔍 Applications
+- Sports analytics  
+- Automated highlight generation  
+- Coaching and performance analysis  
+- Umpire decision assistance  
+- Broadcast intelligence systems  
+
+---
+
+## 📈 Future Work
+- Extend to **video-based action recognition**  
+- Improve **CLIP with domain-specific prompts**  
+- Explore **Vision Transformers + Temporal Models**  
+- Real-time deployment systems  
+
+---
+
+## 🧠 One-Line Summary
+JU-Cricket is the first benchmark dataset that combines **multi-role classification, fine-grained hierarchical labeling, and realistic visual distortions**, enabling robust evaluation of modern deep learning models under real-world cricket scenarios.
+
+---
+
+## 👨‍💻 Authors
+- Utathya Aich  
+- Aritra Mondal  
+- Pawan Kumar Singh  
+
+---
+
+## 🔗 Repository
+https://github.com/aritra-mondal-it/JUCricket
+
+---
+
+## 📜 License
+For academic and research purposes only.
