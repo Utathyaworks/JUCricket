@@ -30,7 +30,7 @@ Cricket action recognition is challenging due to:
 
 | Scoop | Straight Drive | Leg Shot |
 |------|----------------|-----------|
-| ![](JU-Cricket_pictures/Batting/Batting_Scoop_ju_cr_Scoop_12.jpeg) | ![](JU-Cricket_pictures/Batting/Batting_Straight_ju_cr_Straight_39 (1).jpg) | ![](JU-Cricket_pictures/Batting/Batting_Leg Shot_ju_cr_Leg Shot_78.png) |
+| ![](JU-Cricket_pictures/Batting/Batting_Scoop_ju_cr_Scoop_12.jpeg) | ![](JU-Cricket_pictures/Batting/Batting_Straight_ju_cr_Straight_39.jpg) | ![](JU-Cricket_pictures/Batting/Batting_Leg_Shot_ju_cr_Leg_Shot_78.jpg) |
 
 ---
 
