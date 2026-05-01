@@ -48,7 +48,7 @@ Cricket action recognition is challenging due to:
 
 | Diving Stop | Boundary Save |
 |------------|--------------|
-| ![](JU-Cricket_pictures/Fielding/Fielding_diving_stop_ju_cr_diving_stop_08.jpg) | ![](JU-Cricket_pictures/Fielding/Fielding_boundary_save_ju_cr_boundary_save_12.jpegg) |
+| ![](JU-Cricket_pictures/Fielding/Fielding_diving_stop_ju_cr_diving_stop_08.jpg) | ![](JU-Cricket_pictures/Fielding/Fielding_boundary_save_ju_cr_boundary_save_12.jpeg) |
 
 ---
 
