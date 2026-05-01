@@ -26,7 +26,7 @@ Cricket action recognition is challenging due to:
 ### 🏏 Batting Actions
 | Cut | Drive | Pull | Sweep |
 |-----|------|------|-------|
-| ![](JU-Cricket pictures/Batting/6_cut_main.jpg) | ![](assets/images/batting/drive.jpg) | ![](assets/images/batting/pull.jpg) | ![](assets/images/batting/sweep.jpg) |
+| ![](JU-Cricket_pictures/Batting/6_cut_main.jpg) | ![](assets/images/batting/drive.jpg) | ![](assets/images/batting/pull.jpg) | ![](assets/images/batting/sweep.jpg) |
 
 | Scoop | Straight Drive | Leg Glance |
 |------|----------------|-----------|
