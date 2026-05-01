@@ -138,7 +138,7 @@ CLIP (Zero-shot, Fine-tuned, Text-supervised)
 ---
 
 ## 🔗 Repository
-https://github.com/aritra-mondal-it/JUCricket
+https://github.com/Utathyaworks/JUCricket
 
 ---
 
